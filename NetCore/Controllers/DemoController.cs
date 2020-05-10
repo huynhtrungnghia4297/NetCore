@@ -10,14 +10,26 @@ namespace NetCore.Controllers
     {
         //local:port/Demo/Chuoi
 
-        public string Chuoi()
+        //public string Chuoi()
+        //{
+        //    return "Hello World";
+        //}
+        ////local:port/Demo/So
+        //public int So()
+        //{
+        //    return new Random().Next(1, 100);
+        //}
+        //public IActionResult Demo()
+        //{
+        //    return View();
+        //}
+        public IActionResult HinhChuNhat(double dai, double rong)
         {
-            return "Hello World";
+            return View();
         }
-        //local:port/Demo/So
-        public int So()
+        public IActionResult TuDien()
         {
-            return new Random().Next(1, 100);
+            return View();
         }
         public IActionResult Index()
         {
